@@ -1,7 +1,4 @@
 # primary-school-exam
-Here's a draft README file for your project based on the provided document: 
-
----
 
 # Machine Learning in Business: Predicting Student Writing Performance
 
