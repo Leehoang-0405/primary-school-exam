@@ -1,4 +1,3 @@
-```markdown
 # Early Intervention Analytics: Predicting Academic Underperformance in Primary Education
 
 ## 1. Executive Summary
