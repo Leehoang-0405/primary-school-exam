@@ -28,13 +28,20 @@ The primary education sector recognizes the critical importance of early literac
 * **Strategic Focus:** The model recommends that educators focus on improving skills in Burt-01-EOY and TextLevel-02-EOY to achieve better results and a lower chance of underperformance in the Year 3 NAPLAN writing test.
 * **Value Delivery:** By using this predictive model, the organization can assist students who need support from a teacher while minimizing the long term cost of academic failure.
 
-## 6. Next Steps
-* **Model Generalisability:** Expand the dataset and include more diverse student populations to improve future predictions.
-* **Feedback Loops:** Establish multiway communication between Data2Intel, business analysts, and educators to ensure the model aligns with real-world results.
-* **Feature Refinement:** Consider excluding unrelated features with low correlation values, such as sibling order, to increase model efficiency.
+## 6. Model Integrity & Risk Assessment
+A post-implementation audit of the predictive solution identifies the following strategic limitations:
+* **Predictive Skew:** The current model relies heavily on literacy-oriented assessments. There is a risk of under-identifying students whose primary academic risks are rooted in numeracy or non-verbal reasoning.
+* **Sample Specificity:** With 2000 records, the model is highly optimized for the current cohort. The predictive power may degrade when applied to schools with significantly different socio-economic (SES) profiles.
+* **Operational Latency:** The reliance on Start-of-Year and End-of-Year snapshots provides point-in-time risk scores, which may miss rapid shifts in a student's academic trajectory during the term.
+* **Static Evaluation:** Prioritizing Recall over Precision is effective for intervention, but the lack of a dynamic threshold means the model does not yet account for the shifting "cost of intervention" based on school resource cycles.
 
-## 7. Context and Credits
+## 7. Next Steps
+* **Multi-Dimensional Feature Integration:** Broaden the dataset to include a balanced mix of numeracy-based indicators and socio-demographic factors to create a "Whole-of-Child" risk profile.
+* **Establishment of Feedback Loops:** Implement multiway communication between Data2Intel and educators to ensure the model aligns with real-world results and incorporates teacher feedback into future training sets.
+* **Dynamic Threshold Tooling:** Develop a decision-support interface that allows administrators to adjust Recall/Precision targets based on current teacher availability and intervention capacity.
+* **Model Generalisability Expansion:** Scale the dataset to include more diverse student populations to validate the model's performance across regional and metropolitan school districts.
+
+## 8. Context and Credits
 * **Client:** Data2Intel (Australian learning analytics consulting service). Client's name was anonymised due to confidentiality clause. 
-* **Program:** MIS710: Machine Learning in Business.
-* **Team:** Ba Huy Hoang Le (s224309594).
-* **AI Disclosure:** ChatGPT and Google Gemini were used to assist in the refinement of code and formatting within the original reports.
+* **Lead Analyst:** Lee Hoang.
+* **AI Disclosure:** Generative AI was used to assist in the refinement of code and formatting within the original reports.
