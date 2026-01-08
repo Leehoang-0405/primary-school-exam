@@ -34,9 +34,7 @@ The primary education sector recognizes the critical importance of early literac
 * **Feature Refinement:** Consider excluding unrelated features with low correlation values, such as sibling order, to increase model efficiency.
 
 ## 7. Context and Credits
-* **Client:** Data2Intel (Australian learning analytics consulting service).
+* **Client:** Data2Intel (Australian learning analytics consulting service). Client's name was anonymised due to confidentiality clause. 
 * **Program:** MIS710: Machine Learning in Business.
 * **Team:** Ba Huy Hoang Le (s224309594).
 * **AI Disclosure:** ChatGPT and Google Gemini were used to assist in the refinement of code and formatting within the original reports.
-
-```
