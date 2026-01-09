@@ -1,7 +1,14 @@
 # Early Intervention Analytics: Predicting Academic Underperformance in Primary Education
 
 ## 1. Executive Summary
-The primary education sector recognizes the critical importance of early literacy and numeracy skills. This project provides a machine learning solution for Data2Intel to identify students at risk of underperformance in the Year 3 Writing assessment. By identifying that 60% of students in the current cohort are at risk, this work enables proactive intervention strategies. The solution converts raw student data into actionable insights, allowing educators to provide support before learning disparities increase.
+The primary education sector recognizes the critical importance of early literacy and numeracy skills. This project aims to address the sharp rise in student at risk of underperforming in the Year 3 NAPLAN writing test, which has increased by 87.7% from 2016 to 2021. 
+
+Using the data collected by 40 schools across Australia and provided by Data2Intel, the following insights were extracted:
+- SES background decreased slightly from Year 1 (102.94) to Year 2 (102.12).
+- Students who perform well in literacy generally do well in numeracy and are less likely at risk of underperforming.
+- Better vocabulary skills in Year 1 lower the risk of underperforming in the Year 3 writing test.
+- Non-disabled students are less likely be at risk of underperforming compared to cognitively disabled students.
+
 
 ## 2. Business Problem
 **The Decision:** Educators and stakeholders must decide which students require additional resources and literacy support during Year 1 and Year 2.
